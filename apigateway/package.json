@@ -1,0 +1,19 @@
+{
+  "name": "apigateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "type": "module",
+  "author": "Emre Deger <ben@emre.dev>",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "fastify": "^3.29.0",
+    "kafkajs": "^1.16.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
